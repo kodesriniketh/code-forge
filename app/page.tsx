@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-
-export default function Home() {
+import { db } from "@/lib/db";
+export default async function Home() {
+  
   return (
     <div>
       <Button>Click Me</Button>
