@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { db } from "@/lib/db";
-export default async function Home() {
-  
+
+export default function Home() {
   return (
-    <div>
-      <Button>Click Me</Button>
-    </div>
+    <main className="flex min-h-screen items-center justify-center">
+      <Button>Code Forge</Button>
+    </main>
   );
 }
