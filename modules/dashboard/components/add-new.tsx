@@ -75,7 +75,7 @@ const AddNewButton = () => {
       <TemplateSelectingModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        onSubmit={()=>{}}
+        onSubmit={handleSubmit}
       />
     </>
   );
