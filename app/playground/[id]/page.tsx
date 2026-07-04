@@ -489,10 +489,7 @@ const MainPlaygroundPage = () => {
                   </Tabs>
                 </div>
                 <div className="flex-1">
-                  <ResizablePanelGroup
-                    direction="horizontal"
-                    className="h-full"
-                  >
+                  <ResizablePanelGroup className="h-full">
                     <ResizablePanel defaultSize={isPreviewVisible ? 50 : 100}>
                       <PlaygroundEditor
                         activeFile={activeFile}
